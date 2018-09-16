@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "lato";
+}
+
+#landing_page_foto{
+    background-color: gray;
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+    opacity: 0.9;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+
+.logo{
+  margin: 0 auto;
+  padding-top: 5em;
+}
+
+.ondertitel h1{
+    color: #CB5100;
+    margin: 0.5em 0 0.8em 0;
+    letter-spacing: 0.1em;
+    font-size: 3em;
+}
+
+.subcontent_container{
+    margin: 0 auto 3em auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 0.2fr 1fr;
+    width: 100%;
+    text-align: right;
+}
+
+.divider{
+    width: 0.4em;
+    height: 10em;
+    background-color: #CB5100;
+    margin: 0 auto;
+}
+.content_right, .content_left{
+    margin: 0;
+    padding-top: 0.5em;
+    font-size: 2em;
+    color: #5F6367;
+}
+.content_left p{
+    text-align: right;
+    margin-bottom: 0.3em;
+}
+.content_right p{
+    text-align: left;
+    margin-bottom: 0.3em;
+}
+.cta{
+    font-size: 2em;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.5em 1.2em;
+    background-color: #CB5100;
+    border-radius: 0.5em;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+.hitpoint{
+    height: 45vh;
+    width: 100%;
+    background: #CB5100;
+    color: #ffffff;
+    text-align: center;
+
+}
+.hitpoint_text h1{
+    font-size: 1.8em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    padding-top: 6%;
+}
+.hitpoint_subtext p{
+    font-size: 1.8em;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+.seperator{
+    width: 90vw;
+    margin: 1em auto 1em auto;
+    height: 0.4em;
+    background-color: #ffffff;
+}
+.hitpoint_2{
+    height: 55vh;
+    width: 100%;
+    background: #415A74;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
+}
+.hitpoint_2 img{
+    height: 18em;
+    width: 20em;
+    border-radius: 0.5em;
+    position: absolute;
+    top: 50%;
+    margin-top: -9em;
+    margin-left: 9em;
+}
+.hitpoint2_content{
+    width: 80%;
+    padding: 10% 0;;    
+}
+.hitpoint_text_heading{
+    font-size: 2em;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 0.5em;
+}
+.hitpoint_text_paragraph{
+    font-size: 1.5em;
+    font-weight: 200;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+}
+.center{
+    text-align: center;
+}
+.hitpoint_container{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFC198;
+    text-align: center;
+}
+.hitpoint_container > ul {
+    list-style-type: none;
+}
+.hitpoint_3{
+    width: 60%;
+    margin: 0 auto 3em auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.8em;
+    color: #ffffff;
+    font-weight: 500;
+}
+.color{
+    color: #CB5100;
+    padding: 1em 0;
+}
+ul{
+    list-style: none;
+}
+#basis, #standaard, #premium{
+
+    background: #415A74;
+    border-radius: 0.5em;
+    padding: 2em 0;
+}
+#basis > ul > li, #standaard > ul > li, #premium > ul > li{
+    padding-top: 0.8em;
+    font-weight: 200;
+}
+.price_margin_top{
+    margin-top: 0.6em;
+    letter-spacing: 0.1em;
+}
+.cta_2{
+    font-size:1.3em;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1em 10em;
+    background-color: #CB5100;
+    border-radius: 0.5em;
+    letter-spacing: 0.1em;
+}
+footer{
+    height: 20em;
+    background-color: #415A74;
+    text-align: center;
+}
+footer > img{
+    padding: 2em 0;
+}
+footer > .container{
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.5em;
+    color: #CB5100;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+footer > p{
+    margin-top: 4em;
+    color: #CB5100;
+    font-weight: 400;
+}
+@media screen and (max-width: 2560px) and (min-width: 1441px){    
+    .logo{
+      margin: 0 auto;
+      padding-top: 17em;
+    }
+    .logo img{
+        width: 25%;
+        height: 8%;
+    }
+    .hitpoint_text h1{
+        padding-top: 7.5%;
+    }
+    .hitpoint_2 img{
+        height: 28em;
+        width: 27em;
+        margin-top: -14em;
+        margin-left: 16em;
+    }
+    .hitpoint2_content{
+        width: 60%;
+        padding: 15% 0;    
+    }
+    .center{
+        text-align: center;
+    }
+    .hitpoint_container{
+        width: 100%;
+        height: 68vh;
+        background-color: #FFC198;
+        text-align: center;
+    } 
+}
+@media screen and (max-width: 1148px){
+    .ondertitel h1{
+        color: #CB5100;
+        margin: 0.5em 0 0.8em 0;
+        letter-spacing: 0.1em;
+        font-size: 2.3em;
+    }
+    .content_right, .content_left{
+        font-size: 1.8em;
+    }
+    .hitpoint2_content{
+        padding: 12% 0;;    
+    }
+    .hitpoint_text_paragraph{
+        font-size: 1.2em;
+    }
+    #basis > ul > li, #standaard > ul > li, #premium > ul > li{
+        font-size: 0.9em;
+    }
+    #basis > h1, #standaard > h1, #premium > h1{
+        font-size: 1.2em;
+    }
+    .color{
+        padding-top: 1.6em;
+    }
+    footer > .container{
+        font-size: 1.3em;
+    }
+}
+@media screen and (max-width: 884px){
+    #landing_page_foto{
+        height: 90vh;
+        text-align: left;
+        padding-left: 1em;
+    }
+    .logo{
+    margin: 0 auto;
+    padding-top: 6em;
+    text-align: left;
+    }
+    .logo img{
+        width: 60%;
+        height: 15%;
+        padding-left: 2em;
+    }.ondertitel h1{
+        padding: 6% 0%;
+        font-size: 0.9em;
+    }
+    .subcontent_container{
+        margin-top: 3em;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        text-align: left;
+    }
+    .divider{
+        display: none;
+    }
+    .content_right, .content_left{
+        font-size: 1em;
+    }
+    .content_right p, .content_left p {
+        text-align: left;
+        margin-left: 1em;
+    }
+    .cta{
+        font-size:1.2em;
+        text-align: left;
+    }
+    .hitpoint{
+        text-align: left;
+        padding-left: 2em;
+    }
+    .hitpoint_text h1{
+        font-size: 1.2em;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        padding-top: 20%;
+    }
+    .hitpoint_subtext p{
+        font-size: 1em;
+        font-weight: 400;
+    }
+    .seperator{
+        height: 0.2em;
+        width: 80%;
+        margin-left: 0;
+    }
+    .hitpoint_2{
+        height: 100vh;
+        width: 100%;
+        background: #415A74;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        position: static;
+    }
+    .hitpoint_2 img{
+        height: 16em;
+        width: 20em;
+        border-radius: 0.5em;
+        position: static;
+        margin: 2em 0 0 1.2em;
+    }
+    .hitpoint2_content{
+        width: 80%;
+        padding: 10% 0;    
+    }
+    .hitpoint_text_heading{
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+        
+        padding-left: 1.2em;
+    }
+    .hitpoint_text_paragraph{
+        font-size: 1.2em;
+        letter-spacing: 0.1em;
+        padding-left: 1.2em;
+    }
+    .center{
+        text-align: center;
+    }
+    .hitpoint_container{
+        height: auto;
+        padding-bottom: 3em;
+    }
+    .hitpoint_3{
+        width: 70%;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    #premium{
+        margin-bottom: 0;
+    }
+    .cta_2{
+        font-size:0.7em;
+        padding: 2em 6em;
+        margin-bottom: 1em;
+    }
+    footer{
+        padding-left: 1em;
+        height: auto;
+        text-align: left;
+    }
+    footer > img{
+        padding: 2em 0;
+        width: 17em;
+        height: 9em;
+    }
+    footer > .container{
+        margin: 0;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        font-size: 1.1em;
+    }
+    footer > p{
+        margin-top: 4em;
+        font-size: 0.6em;
+    } 
+}
